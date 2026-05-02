@@ -1,0 +1,16 @@
+{
+  "name": "backend-evaluation",
+  "version": "1.0.0",
+  "description": "Backend evaluation - logging middleware, vehicle scheduler, notification service",
+  "main": "notification_app_be/app.js",
+  "scripts": {
+    "start": "node notification_app_be/app.js",
+    "scheduler": "node vehicle_maintence_scheduler/index.js",
+    "log:test": "node logging_middleware/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.15.2",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1"
+  }
+}
